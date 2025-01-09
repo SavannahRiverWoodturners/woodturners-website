@@ -40,7 +40,7 @@ plugins:
 sidebar_home_link: false
 google_analytics: ''
 
-theme: jekyll-theme-hydeout
+#theme: jekyll-theme-hydeout
 
 $layout-reverse: false !default;
 
