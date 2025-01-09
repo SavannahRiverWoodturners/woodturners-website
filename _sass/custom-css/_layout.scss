@@ -1,0 +1,30 @@
+#sidebar {
+  flex: 0 0 auto;
+  padding: $section-spacing;
+
+  .site-title {
+    font-family: 'Sigmar One', serif;
+    font-size: $large-font-size;
+    font-weight: normal;
+    margin-bottom: $heading-spacing;
+    margin-top: 0;
+  }
+
+  .site-title .back-arrow { margin-right: 0.5rem; }
+}
+
+.home #sidebar {
+
+  // Smaller title
+  .site-title {
+    font-size: 1.8rem;
+  }
+}
+
+#sidebar img.logo {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border-radius: 100px;
+  border: solid 1px #333;
+}
